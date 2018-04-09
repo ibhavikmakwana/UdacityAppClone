@@ -2,5 +2,11 @@
     <string name="app_name">UdacityAppClone</string>
     <string name="new_to_udacity">New to udacity</string>
     <string name="existing_student">Existing student</string>
-    <string name="udacity_desc">Learn from the industry\'s very nest only \n found in udacity\'s world class offerings.</string>
+    <string name="udacity_desc">Learn from the industry\'s very best only \n found in udacity\'s world class offerings.</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
 </resources>
