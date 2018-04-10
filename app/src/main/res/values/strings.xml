@@ -5,8 +5,20 @@
     <string name="udacity_desc">Learn from the industry\'s very best only \n found in udacity\'s world class offerings.</string>
     <string name="email_id">Email Id</string>
     <string name="password">Password</string>
-    <string name="forgot_password">Forgot Password?</string>
-    <string name="login">Login</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
     <string name="google">Google</string>
     <string name="facebook">Facebook</string>
+    <string name="sign_in_desc">Your student account is your portal to all things Udacity: your classroom, projects, forums, career resources, and more!</string>
+    <string name="terms_service">By signing in, you agree to the Udacity Terms of Service.</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="flying_car_nanodegree_preview">Flying Car\nNanodegree\nPreview</string>
+    <string name="machine_learning">Machine\nLearning</string>
 </resources>
