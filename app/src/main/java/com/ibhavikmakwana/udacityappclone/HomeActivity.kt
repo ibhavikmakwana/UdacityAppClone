@@ -7,13 +7,15 @@ import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.LinearSnapHelper
 import android.view.Menu
+import com.ibhavikmakwana.udacityappclone.adapter.FreeAdapter
 import com.ibhavikmakwana.udacityappclone.adapter.InDemandAdapter
 import com.ibhavikmakwana.udacityappclone.adapter.NanodegreeAdapter
-import com.ibhavikmakwana.udacityappclone.adapter.freeAdapter
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.app_bar_home.*
 import kotlinx.android.synthetic.main.content_home.*
+
 
 class HomeActivity : AppCompatActivity()/*, NavigationView.OnNavigationItemSelectedListener */ {
 
@@ -44,8 +46,11 @@ class HomeActivity : AppCompatActivity()/*, NavigationView.OnNavigationItemSelec
         val inDemandLayoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         val nanoDegreeLayoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
 
+        val snapHelper = LinearSnapHelper()
+        snapHelper.attachToRecyclerView(rv_free_courses)
+
         rv_free_courses.layoutManager = freeLayoutManager
-        rv_free_courses.adapter = freeAdapter(this)
+        rv_free_courses.adapter = FreeAdapter(this)
         rv_free_courses.isNestedScrollingEnabled = false
 
         rv_in_demand.layoutManager = inDemandLayoutManager
